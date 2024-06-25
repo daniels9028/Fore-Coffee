@@ -11,10 +11,10 @@ const Hero = () => {
         <Carousel className="rounded-xl">
           <div className="flex items-center lg:flex-row flex-col">
             <div className="lg:text-left text-center">
-              <h1 className="text-8xl text-[#006041] mb-4 font-bold">
+              <h1 className="lg:text-8xl text-xl text-[#006041] mb-4 font-bold">
                 Grind The Essentials
               </h1>
-              <p className="text-4xl text-[#97a259]">
+              <p className="lg:text-2xl text-lg text-[#97a259]">
                 Dibuat dari biji kopi Indonesia pilihan untuk pengalaman minum
                 kopi terbaik setiap hari
               </p>
@@ -29,10 +29,10 @@ const Hero = () => {
 
           <div className="flex items-center lg:flex-row flex-col">
             <div className="lg:text-left text-center">
-              <h1 className="text-8xl text-[#006041] mb-4 font-bold">
+              <h1 className="lg:text-8xl text-xl text-[#006041] mb-4 font-bold">
                 Fore Grind Master 2023
               </h1>
-              <p className="text-2xl text-[#97a259]">
+              <p className="lg:text-2xl text-lg text-[#97a259]">
                 Kompetisi tahunan bergengsi untuk barista Fore Coffee di seluruh
                 Indonesia
               </p>
@@ -47,10 +47,10 @@ const Hero = () => {
 
           <div className="flex items-center lg:flex-row flex-col">
             <div className="lg:text-left text-center">
-              <h1 className="text-8xl text-[#006041] mb-4 font-bold">
+              <h1 className="lg:text-8xl text-xl text-[#006041] mb-4 font-bold">
                 The 1st Fore Coffee Store That Embrace Sustainability
               </h1>
-              <p className="text-2xl text-[#97a259]">
+              <p className="lg:text-2xl text-lg text-[#97a259]">
                 Dibuat dari 450kg plastik daur ulang, berlokasi di Kuningan
                 City, Jakarta
               </p>
