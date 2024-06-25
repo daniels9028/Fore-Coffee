@@ -6,12 +6,12 @@ import appstore from "../assets/appstore.png";
 const Android = () => {
   return (
     <div className="max-w-[1200px] mx-auto my-20">
-      <div className="flex md:items-center gap-8 mx-4 w-full lg:flex-row flex-col-reverse">
+      <div className="flex items-center gap-8 mx-4 lg:flex-row flex-col-reverse justify-center">
         <div className="lg:w-1/2 w-full text-wrap lg:text-left text-center">
           <h2 className="font-semibold tracking-widest text-2xl align-top mb-8">
             FORE COFFEE APP
           </h2>
-          <h3 className="font-bold text-6xl font-[#1e4a3c]">
+          <h3 className="font-bold lg:text-6xl text-2xl font-[#1e4a3c]">
             Kopi hanya dalam satu ketukan! Cepat dan mudah dengan berbagai
             keuntungan ekstra
           </h3>

@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
 
         {open && (
-          <div className="absolute lg:hidden flex flex-col top-14 right-10 w-[300px] rounded-xl items-center text-center bg-[#ceccc8] z-20">
+          <div className="absolute lg:hidden flex flex-col lg:top-14 top-[70px] right-10 w-[300px] rounded-xl items-center text-center bg-[#ebe9e7] z-20">
             <ul className="my-2 space-y-2 text-[#006041] font-semibold text-[16px] leading-[24px] capitalize not-italic cursor-pointer">
               <li>Tentang</li>
               <li>Menu</li>

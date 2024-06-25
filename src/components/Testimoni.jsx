@@ -35,14 +35,14 @@ const Testimoni = () => {
           <img
             src={matcha}
             alt="matcha"
-            className="absolute bottom-0 left-0 h-52"
+            className="absolute bottom-0 left-0 lg:h-52 h-24"
           />
         </div>
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-6xl text-[#006041] font-semibold mb-10">
+          <h1 className="lg:text-6xl text-2xl text-[#006041] font-semibold lg:mb-10 mb-2">
             Testimoni
           </h1>
-          <p className="text-2xl text-[#97a259] border-dashed border-[#d0d784] border p-4 rounded-full">
+          <p className="lg:text-2xl text-lg text-[#97a259] border-dashed border-[#d0d784] border p-4 rounded-full">
             Kolaborasi Sukses Kami
           </p>
         </div>
@@ -50,7 +50,7 @@ const Testimoni = () => {
           <img
             src={jasmine}
             alt="jasmine"
-            className="h-52 absolute top-0 right-0"
+            className="absolute top-0 right-0 lg:h-52 h-24"
           />
         </div>
       </div>
