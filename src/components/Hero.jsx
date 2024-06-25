@@ -23,7 +23,7 @@ const Hero = () => {
               src={coffee}
               alt="coffee"
               width={1000}
-              className="object-cover lg:h-[40rem] h-32 px-4"
+              className="object-cover lg:h-[40rem] h-96 px-4"
             />
           </div>
 
@@ -41,7 +41,7 @@ const Hero = () => {
               src={foreMaster}
               alt="coffee"
               width={1000}
-              className="object-cover lg:h-[40rem] h-32 px-4"
+              className="object-cover lg:h-[40rem] h-96 px-4"
             />
           </div>
 
@@ -59,7 +59,7 @@ const Hero = () => {
               src={foreStore}
               alt="coffee"
               width={1000}
-              className="object-cover lg:h-[40rem] h-32 px-4"
+              className="object-cover lg:h-[40rem] h-96 px-4"
             />
           </div>
         </Carousel>
