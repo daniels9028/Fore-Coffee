@@ -53,7 +53,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="mx-4 mt-6 flex lg:flex-row flex-col lg:space-y-0 space-y-10 items-center">
+      <div className="mx-4 mt-6 flex lg:flex-row flex-col lg:space-y-0 lg:justify-between justify-start space-y-10 items-center">
         <span className="text-[#1e4a3c] text-sm">
           © 2024 FORE COFFEE, All Rights Reserved
         </span>
