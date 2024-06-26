@@ -49,28 +49,26 @@ const Navbar = () => {
           {open ? <IoMdClose size={30} /> : <LuAlignRight size={30} />}
         </div>
 
-        {open && (
-          <motion.div
-            initial={false}
-            animate={open ? "open" : "closed"}
-            variants={menuVariants}
-            className="fixed flex-col top-0 right-0 w-full min-h-screen gap-5 justify-center items-center text-center bg-[#ebe9e7] z-40"
-          >
-            <img src={logo} alt="" />
-            <ul className="my-2 space-y-6 text-[#006041] font-bold text-[16px] leading-[24px] capitalize not-italic cursor-pointer">
-              <li>Tentang</li>
-              <li>Menu</li>
-              <li>Kolaborasi</li>
-              <li>Lokasi Store</li>
-              <li>Karir</li>
-              <li>Hubungi Kami</li>
-            </ul>
+        <motion.div
+          initial={false}
+          animate={open ? "open" : "closed"}
+          variants={menuVariants}
+          className="fixed flex-col top-0 right-0 w-full min-h-screen gap-5 justify-center items-center text-center bg-[#ebe9e7] z-40"
+        >
+          <img src={logo} alt="" className="mt-20" />
+          <ul className="mt-10 space-y-8 text-[#006041] font-bold text-[16px] leading-[24px] capitalize not-italic cursor-pointer">
+            <li>Tentang</li>
+            <li>Menu</li>
+            <li>Kolaborasi</li>
+            <li>Lokasi Store</li>
+            <li>Karir</li>
+            <li>Hubungi Kami</li>
+          </ul>
 
-            <button className="py-2 px-6 border-[1.5px] text-black border-black rounded-full hover:text-white hover:bg-[#006041] transition-colors my-4 w-[200px]">
-              Download App
-            </button>
-          </motion.div>
-        )}
+          <button className="py-2 px-6 border-[1.5px] text-black border-black rounded-full hover:text-white hover:bg-[#006041] transition-colors my-4 w-[200px]">
+            Download App
+          </button>
+        </motion.div>
       </div>
     </div>
   );
