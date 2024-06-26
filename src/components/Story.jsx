@@ -52,7 +52,7 @@ const Story = () => {
                   duration: 1,
                 },
               },
-              hidden: { opacity: 0, x: "100%" },
+              hidden: { opacity: 0, x: "-100%" },
             }}
           >
             <p className="text-2xl text-black text-justify mb-4 align-top mt-8">
